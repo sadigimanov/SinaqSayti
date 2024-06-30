@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-300 flex justify-center items-center min-h-screen">
+    <div class="w-[450px] bg-white px-[50px] py-[40px]">
+        <figure class="flex justify-center mb-[15px]">
+            <img src="./assets/img/Online Sinaq Logo.png" class="w-[50px] h-[30px]" alt="">
+        </figure>
+        <form id="form">
+            <div id="form-content" class="space-y-[13px] mb-[13px]">
+                <div class="relative">
+                    <label for="username" class="block text-sm font-medium text-gray-700">İstifadəçi Adı</label>
+                    <input type="text" name="username" id="username" class="mt-1 h-[36px] block w-full border border-gray-300 rounded-[5px] shadow-sm outline-none px-[10px] sm:text-sm" />
+                    <div class="text-red-500 text-sm mt-1"></div>
+                </div>
+                <div class="relative">
+                    <label for="password" class="block text-sm font-medium text-gray-700">Şifrə</label>
+                    <input type="password" name="password" id="password" class="mt-1 h-[36px] block w-full border border-gray-300 rounded-[5px] shadow-sm outline-none px-[10px] sm:text-sm" />
+                    <div class="text-red-500 text-sm mt-1"></div>
+                </div>
+            </div>
+            <div>
+                <button type="submit" class="w-full bg-blue-800 h-[40px] text-white font-semibold flex justify-center items-center rounded-[5px]">Giriş</button>
+            </div>
+            <a href="./assets/html/register.html" class="text-blue-500 text-sm mt-[10px] block text-center">Qeydiyyatdan Keç</a>
+        </form>
+        <script type="module" src="./assets/js/script.js"></script>
+    </div>
+</body>
+</html>
