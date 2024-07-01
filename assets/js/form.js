@@ -56,7 +56,7 @@ export default class Form {
                 errors[name] = errorRules.required;
             }
             if (errorRules.min && data[name].length < errorRules.min) {
-                errors[name] = `${errorRules.min} karakter minimum gereklidir`;
+                errors[name] = `Ən azı ${errorRules.min} simvol  lazımdır`;
             }
             if (errorRules.same && data['password'] !== data['rpassword']) {
                 errors['rpassword'] = errorRules.same;

@@ -5,7 +5,7 @@ import formElements from './config.js';
 document.addEventListener('DOMContentLoaded', () => {
     const formEl = document.querySelector('#form');
     const formContentEl = document.querySelector('#form-content');
-    const registerButton = document.querySelector('a[href="./assets/html/register.html"]');
+    const registerButton = document.querySelector('#registerBtn');
 
     if (registerButton) {
         registerButton.addEventListener('click', (e) => {
